@@ -1,0 +1,713 @@
+.BodyBG {
+  background-color: #FFFFFF;
+}
+
+.PageBG {
+  background-color: transparent;
+  background-image: none;
+  background-repeat: repeat;
+}
+
+.SelectionBG {
+  background-color: #D2EAF6;
+}
+
+.HoverBG {
+  background-color: #EDF2FB;
+}
+
+.ContainerBorder {
+  border: 1px solid #e9eaf1;
+}
+
+.ContainerBG {
+  background-color: #FFFFFF;
+  background-image: none;
+  background-repeat: repeat-x;
+}
+
+.ContainerHeader {
+  background-color: #FFFFFF;
+  background-image: none;
+  background-repeat: repeat-x;
+  color: #444444;
+}
+
+.ContainerHeader a {
+  color: #0066A7;
+}
+
+.ContainerHeader a:visited {
+  color: #0066A7;
+}
+
+.ToolbarBorder {
+  border: 1px solid #e9eaf1;
+}
+
+.ToolbarBG {
+  background-color: #FFFFFF;
+  background-image: url("../img/ToolbarBGImage.gif");
+  background-repeat: repeat-x;
+}
+
+.Toolbar {
+  border: 1px solid #e9eaf1;
+  color: #444444;
+}
+
+.BreadcrumbBG {
+  background-color: Transparent;
+}
+
+.BreadcrumbBorder {
+  border: 1px none;
+}
+
+.Breadcrumb {
+  border: 1px none;
+  background-color: Transparent;
+  color: #444444;
+}
+
+.Breadcrumb a {
+  color: #444444;
+  text-decoration: none;
+}
+
+.Breadcrumb a:visited {
+  color: #444444;
+}
+
+a.back_to_x:hover {
+  text-decoration: none;
+}
+
+* {
+  line-height: 130%;
+}
+
+body {
+  margin: 0px;
+  background-color: #FFFFFF;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 70%;
+  color: #444444;
+  direction: ltr;
+}
+
+label {
+  color: #444444;
+}
+
+input,
+select,
+textarea,
+button {
+  font-size: 100%;
+}
+
+textarea {
+  font-family: Verdana, Arial, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 8px 0px 4px;
+  line-height: 145%;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 146%;
+}
+
+h2 {
+  font-size: 132%;
+}
+
+h3 {
+  font-size: 125%;
+}
+
+h4 {
+  margin: 4px 0px;
+  font-size: 110%;
+}
+
+h5 {
+  margin: 4px 0px;
+  font-size: 100%;
+}
+
+a {
+  font-weight: inherit;
+  text-decoration: none;
+  color: #0066A7;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+ul {
+  margin: 0px 0px 20px 1em;
+  padding: 0px 0px 0px 1em;
+  list-style-type: disc;
+}
+
+li {
+  margin: 0px 0px 3px;
+}
+
+font {
+  line-height: normal;
+}
+
+a img {
+  border: 0px none;
+}
+
+#header {
+  margin-bottom: -20px;
+  background-image: url("../img/HeaderGradientImage.gif");
+  background-position: bottom;
+  background-repeat: repeat-x;
+  text-align: center;
+  color: #FFFFFF;
+  zoom: 1.0;
+  clear: both;
+}
+
+#header table {
+  color: #FFFFFF;
+}
+
+#header .stroke {
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-top-color: #04306d;
+  border-bottom-color: #1e4a87;
+  height: 0px;
+  line-height: 0;
+  font-size: 0;
+}
+
+#header .inside {
+  padding-bottom: 20px;
+  background: url("../img/HeaderCenterImage.gif");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  text-align: left;
+}
+
+#header .BrandSection {
+  margin-top: 2px;
+  text-align: left;
+  float: left;
+  height: 50px;
+  white-space: nowrap;
+}
+
+#header .cobrandSection {
+  margin-top: 0px;
+}
+
+#header .MeSection {
+  margin: 2px 8px 0px 0px;
+  text-align: right;
+  width: auto;
+  float: right;
+  height: 50px;
+  white-space: nowrap;
+}
+
+#header .SearchSection {
+  padding-top: 14px;
+  padding-bottom: 8px;
+  text-align: center;
+}
+
+#header .MeSection.full {
+  width: 258px;
+}
+
+#pagebg {
+  margin-top: 20px;
+  margin-bottom: 0px;
+  position: absolute;
+  clear: both;
+  height: 0px;
+  background: none;
+  background-position: top;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+a.jewel_css {
+  cursor: pointer;
+  position: relative;
+  display: block;
+  overflow: hidden;
+  height: 49px;
+  width: 49px;
+}
+
+a.jewel_css span.jewel_css_filter {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 49px;
+  height: 147px;
+}
+
+a.jewel_css img {
+  border: none;
+}
+
+a.jewel_css_hover_ie span.jewel_css_filter,
+a.jewel_css:hover span.jewel_css_filter {
+  top: -49px;
+}
+
+a.jewel_css span.Down,
+a.jewel_css:hover span.Down {
+  top: -98px;
+}
+
+a.cobrand_jewel_css {
+  height: 18px;
+  width: 24px;
+}
+
+a.cobrand_jewel_css_hover_ie span.jewel_css_filter,
+a.cobrand_jewel_css:hover span.jewel_css_filter {
+  top: -18px;
+}
+
+a.cobrand_jewel_css span.Down,
+a.cobrand_jewel_css:hover span.Down {
+  top: -36px;
+}
+
+.cobrand_jewel_from {
+  margin-top: 2px;
+}
+
+.cobrand_1_jewel_productName {
+  position: relative;
+}
+
+.cobrand_1_jewel_poweredByParent img {
+  vertical-align: middle;
+}
+
+.cobrand_1_jewel_poweredByText {
+  padding-left: 4px;
+}
+
+.cobrand_1_bottomParent {
+  position: relative;
+  top: -2px;
+}
+
+.cobrand_3_jewel img {
+  vertical-align: middle;
+}
+
+.cobrand_3_jewel_productName {
+  position: relative;
+}
+
+.efp_spot {
+  position: absolute;
+  display: none;
+}
+
+.efp_spot table.efp_spot_left {
+  margin-right: auto;
+}
+
+.efp_spot table.efp_spot_right {
+  margin-left: auto;
+}
+
+.efp_spot table.efp_spot_center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.efp_spot table td {
+  padding: 4px 0px;
+}
+
+.efp_spot table td.efp_spot_text {
+  padding-left: 4px;
+}
+
+.efp_spot table td.efp_spot_closeImage {
+  padding-left: 8px;
+  padding-right: 4px;
+}
+
+.efp_spot table img {
+  border: none;
+  vertical-align: middle;
+}
+
+.efp_spot table img.efp_spot_iconImage {
+  padding-right: 4px;
+}
+
+.efp_spot table div {
+  color: #444444;
+  text-align: center;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+#header span.more {
+  position: absolute;
+  display: none;
+  _display: block;
+  _top: -5000px;
+}
+
+#header .BrandSection a.jewel img,
+#header .BrandSection span.flag img {
+  border: 0px none;
+  vertical-align: top;
+}
+
+#header .BrandSection span.flag {
+  display: inline !important;
+  vertical-align: top;
+}
+
+#header .BrandSection span.Product {
+  vertical-align: top;
+  display: inline-block;
+  line-height: 47px;
+  _line-height: 48px;
+  font-size: 17px;
+  font-family: Verdana, Arial, sans-serif;
+}
+
+#header .cobrandTableParent {
+  height: 100%;
+}
+
+#header .cobrandTableParent td {
+  padding: 0px;
+}
+
+#header .cobrandTableParent td.jewelPadding {
+  padding-right: 2px;
+}
+
+#header .cobrandSection {
+  margin-left: 2px;
+}
+
+#header .cobrandSection span.Product {
+  vertical-align: baseline;
+  line-height: normal;
+}
+
+#header .tm {
+  font-size: 6px;
+  vertical-align: super;
+}
+
+#header .BrandSection span.Beta {
+  margin-left: -34px;
+  margin-top: 30px;
+  font-size: 12px;
+  color: #EE2037;
+  font-weight: bold;
+  font-family: Verdana, Arial, sans-serif;
+  position: absolute;
+  line-height: 16px;
+}
+
+#header .cobrandSection span.Beta {
+  margin-left: 0px;
+  margin-top: auto;
+  position: static;
+  line-height: normal;
+}
+
+.BetaText {
+  font-size: 12px;
+  color: #EE2037;
+  font-weight: bold;
+  font-family: Verdana, Arial, sans-serif;
+}
+
+#header .Menu {
+  display: none;
+}
+
+.efpSf {
+  margin: auto;
+}
+
+.efpSc button.efpSb {
+  border: 0px none;
+  padding: 0.3em 8px;
+  font-size: 92%;
+  line-height: 1em;
+  *padding: .35em 8px;
+  color: White;
+  font-weight: bold;
+  background-image: url();
+  vertical-align: top;
+  _width: 1px;
+  _overflow: visible;
+}
+
+.efpSc div.efpHl span {
+  border: 1px solid #4b7c9f;
+  display: block;
+}
+
+.efpSc button.efpSb.efpOver {
+  background-image: url();
+  background-color: #39bdd4;
+}
+
+.efpSc {
+  display: inline;
+}
+
+.efpSc div.efpHl {
+  border: 1px solid #5b99ab;
+  margin: 1px;
+  white-space: nowrap;
+}
+
+form.efpSf.active .efpSc div.efpHl {
+  border: 2px solid #aae9ee;
+  margin: 0px;
+}
+
+.efpSc .q {
+  border-width: 0px 1px 0px 0px;
+  border-style: none solid none none;
+  border-right-color: #4b7c9f;
+  padding: 0.3em 4px 0.35em;
+  width: 29.6em;
+  background-image: url(../img/srch_shadow.gif);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-color: White;
+  vertical-align: top;
+  *margin: -1px 0;
+}
+
+.efpSc .go {
+  margin: 0px;
+  vertical-align: top;
+  height: 1.786em;
+}
+
+.efpSf label {
+  display: none;
+}
+
+#header .MeSection a {
+  color: #FFFFFF;
+  white-space: nowrap;
+}
+
+#header .MeSection a.ppl img {
+  margin-left: 4px;
+  vertical-align: middle;
+}
+
+#header .MeSection span {
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+#header .MeSection .sme {
+  padding-top: 16px;
+}
+
+.Menu {
+  border: 1px solid #aaa;
+  margin: 0px;
+  left: 0px;
+  background-color: #F1F7F7;
+  width: 25em;
+  z-index: 100000;
+}
+
+.Menu UL {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+}
+
+.Menu UL.Main {
+  margin: 0.25em;
+  background-color: #FFFFFF;
+  width: 15em;
+}
+
+.Menu UL.Main A {
+  padding: 0.25em;
+  display: block;
+  color: #444444;
+}
+
+.Menu img {
+  padding: 0px 0.5em 0px 0.25em;
+  vertical-align: middle;
+}
+
+#header .Menu a.nonIcon span {
+  margin-left: 0.78em;
+  padding-left: 16px;
+}
+
+.Menu .Main A:hover {
+  text-decoration: none;
+  background-color: #F1F7F7;
+}
+
+.Menu UL.Main LI.sep {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #e9eaf1;
+  margin: 0px 8px;
+  line-height: 0;
+  font-size: 0;
+  height: 0px;
+}
+
+.Menu UL.Main LI.sel {
+  background-color: #CDE7f5;
+}
+
+.Menu UL.Tools {
+  margin-left: 16.25em;
+  margin-bottom: 0.5em;
+  position: absolute;
+  width: 10em;
+  bottom: 0px;
+}
+
+.Menu UL.Tools A {
+  color: #444444;
+  display: inline;
+  white-space: normal;
+}
+
+.L_FloatLeft {
+  float: left;
+}
+
+.L_FloatRight {
+  float: right;
+}
+
+.L_TextAlignLeft {
+  text-align: left;
+}
+
+.L_TextAlignRight {
+  text-align: right;
+}
+
+.TextSizeXSmall {
+  font-size: 80%;
+}
+
+.TextSizeSmall {
+  font-size: 92%;
+}
+
+.TextSizeNormal {
+  font-size: 100%;
+}
+
+.TextSizeLarge {
+  font-size: 110%;
+}
+
+.TextSizeXLarge {
+  font-size: 125%;
+}
+
+.TextSizeXXLarge {
+  font-size: 132%;
+}
+
+.TextSizeXXXLarge {
+  font-size: 146%;
+}
+
+.LineHeightTight {
+  line-height: 105%;
+}
+
+.LineHeightStandard {
+  line-height: 130%;
+}
+
+.LineHeightLoose {
+  line-height: 145%;
+}
+
+.LineHeightXLoose {
+  line-height: 170%;
+}
+
+.TextBold {
+  font-weight: bold;
+}
+
+.TextItalic {
+  font-style: italic;
+}
+
+.TextNormal {
+  font-weight: normal;
+  font-style: normal;
+  white-space: normal;
+  text-transform: none;
+  letter-spacing: normal;
+}
+
+.TextHighlight {
+  color: #F07522;
+  font-weight: bold;
+}
+
+.TextAdLabel {
+  font-size: 80%;
+  text-transform: uppercase;
+  color: #AAAAAA;
+}
+
+.TextDefinition {
+  background: url() bottom repeat-x;
+}
+
+.AppLink:visited {
+  color: inherit;
+}
+
+.Live_Controls_Button {
+  border: 1px solid #00156e;
+  background-color: #F1F1F1;
+  background-image: url();
+  color: #00156E;
+}
