@@ -1,0 +1,5 @@
+function ShowFooter() {
+    var MainFooter = '<div id="footer" class="Footer"><div class="FooterLeft"><ul>&nbsp;<li class="copyright"><bdo dir="ltr">©&nbsp;2007&nbsp;<a href="https://t.me/TitovCorp">TitovCorp</a></bdo></li>&nbsp;<li class="itm"><a target="_blank" href="" id="Privacy">Конфіденційність</a></li>&nbsp;<li class="sep">|</li>&nbsp;<li class="itm"><a target="_blank" href="" id="Legal">Юридичний</a></li>&nbsp;<li dir="ltr" class="sep">|</li>&nbsp;<li><a target="_new" id="footerCustom1" href="">Повідомити про зловживання</a></li>&nbsp;<li dir="ltr" class="sep">|</li><li>&nbsp;<a target="_new" id="footerCustom2" href="">Безпека</a></li></ul></div><div class="FooterRight"><ul><li class="itm"><a target="_blank" href="" id="Help">Центр довідки</a></li>&nbsp;<li class="sep">|</li>&nbsp;<li class="itm"><a target="_blank" href="" id="Account">Обліковий запис</a></li>&nbsp;<li class="sep">|</li>&nbsp;<liclass="itm"><a target="_blank" href="" id="Feedback">Зворотній зв\'язок</a></li></ul></div></div><div style="clear:both"></div>';
+    document.write(MainFooter);
+}
+ShowFooter()
