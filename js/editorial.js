@@ -55,7 +55,7 @@
     var iImgLength;
     var sFormerText = 'SpanDescription01';
     var sFormerTab = 'DivInfoPaneTab01';
-    var sFormerTabBackground = '../img/InfoPaneTabs01Off.gif';
+    var sFormerTabBackground = 'img/InfoPaneTabs01Off.gif';
 
     function RotateSubPageImages(aArrayArg) {
         oSubInfoPaneTextTitleOff = document.getElementById(sFormerText.toString());
